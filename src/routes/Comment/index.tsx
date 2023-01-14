@@ -1,4 +1,5 @@
 import CardCar from "../../components/CardCar";
+import CardComment from "../../components/CardComment";
 import Header from "../../components/Header";
 import "./styles.css";
 
@@ -19,11 +20,15 @@ export default function Comment() {
 
         <div className="dc-section-comments">
           <div className="dc-card-comments-container">
-
-            <div className="dc-card-comment">
-              <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h1>
-            </div>
+            <h3>O que estão dizendo</h3>
             
+            <CardComment />
+            <CardComment />
+            <CardComment />
+            <CardComment />
+            <CardComment />
+            <CardComment />
+
           </div>
         </div>
       </main>

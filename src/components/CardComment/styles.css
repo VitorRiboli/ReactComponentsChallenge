@@ -1,0 +1,14 @@
+.dc-card-comment {
+  border: 1px solid var(--color-bord-primary);
+  border-radius: 12px;
+  background-color: var(--color-bg-secondary);
+
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.dc-card-comment h4 {
+  color: var(--color-bg-primary);
+  font-size: 16px;
+  padding: 25px 20px;
+}
