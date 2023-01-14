@@ -1,0 +1,35 @@
+#comment-section {
+  padding: 25px 20px;
+}
+
+.dc-container {
+  width: 100%;
+}
+
+.dc-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-font-secondary);
+  margin-top: 25px;
+}
+
+.dc-card-container {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.dc-section-comments {
+  width: 100%;
+  background-color: var(--color-bg-quartiary);
+}
+
+.dc-card-comments-container {
+  max-width: 960px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+

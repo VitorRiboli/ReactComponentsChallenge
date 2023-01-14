@@ -1,0 +1,21 @@
+.dc-card {
+  width: 100%;
+  border: 1px solid var(--color-bord-primary);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.dc-card img {
+  width: 260px;
+  margin-bottom: 10px;
+}
+
+.dc-card-control {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
