@@ -7,4 +7,17 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --color-bg-primary: #3C9AF0;
+  --color-bg-secondary: #FFFFFF;
+  --color-bg-terciary: #D9D9D9;
+  --color-bg-quartiary: #C8C8C8;
+
+  --color-font-primary: #FFFFFF;
+  --color-font-secondary: #5E5E5E;
+  --color-font-secondary: #3C9AF0;
+
+  --color-bord-primary: #3C9AF0;
+}
+
 
