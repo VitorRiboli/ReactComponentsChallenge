@@ -1,7 +1,9 @@
+import "./styles.css";
+
 import CardCar from "../../components/CardCar";
 import CardComment from "../../components/CardComment";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import "./styles.css";
 
 export default function Comment() {
   return (
@@ -21,17 +23,18 @@ export default function Comment() {
         <div className="dc-section-comments">
           <div className="dc-card-comments-container">
             <h3>O que estão dizendo</h3>
-            
-            <CardComment />
-            <CardComment />
-            <CardComment />
-            <CardComment />
-            <CardComment />
-            <CardComment />
 
+            <CardComment />
+            <CardComment />
+            <CardComment />
+            <CardComment />
+            <CardComment />
+            <CardComment />
           </div>
         </div>
       </main>
+
+      <Footer />
     </>
   );
 }
